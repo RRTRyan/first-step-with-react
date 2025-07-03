@@ -1,0 +1,14 @@
+section {
+    width: 100%;
+    display: flex;
+}
+
+.section--top {
+    background-image: url("src/assets/hei-banner-1.webp");
+    background-size: cover;
+    /* filter: brightness(80%); */
+}
+
+.font-times-new-roman {
+    font-family: 'Times New Roman', Times, serif;
+}
