@@ -10,7 +10,9 @@ export default function TeamCarousel() {
             "Julien RAJERISON", "Ryan ANDRIAMAHERY",
             "Jean Aimé Maxa",
             "Parison Ravalomanda",
-
+            "Yannick Raharijaona",
+            "Dre Tahina Ralitera",
+            "Dr Lou Maurica"
         ]
 
     const image =
@@ -19,7 +21,10 @@ export default function TeamCarousel() {
             "../assets/Julien-150x150.webp",
             "../assets/ryan-min-150x150.webp",
             "../assets/Jean-Aime-Maxa-modified-150x150.jpg",
-            "../assets/Parison-e1716502987165-150x150.png"
+            "../assets/Parison-e1716502987165-150x150.png",
+            "../assets/5746AC1E761A42D1B7D89496C9A6BE9B_edited-e1716502720974-150x150.jpg",
+            "../assets/Tahina-OK-e1716502943928-150x150.png",
+            "../assets/97-portraits-97_edited-e1716502895676-150x150.jpg"
         ]
 
     const description =
@@ -29,7 +34,9 @@ export default function TeamCarousel() {
             "Développeur back end | Cofondateur et Directeur des opérations de HEI",
             "Responsable technique cybersécurité chez CES France Continental (Toulouse – France)",
             "Ingénieur en informatique | Ingénieur logiciel chez Google (Londres – UK)",
-
+            "Responsable technique ML chez Rocket Science (Ottawa – Canada)",
+            "Docteure-Ingénieure, CNRS France | Prix L’Oréal-UNESCO pour les Femmes en Science (2017)",
+            "Docteur-Ingénieur en informatique | Fondateur et Directeur pédagogique de HEI"
         ]
 
     const [currentCard, setCurrentCard] = useState(0)

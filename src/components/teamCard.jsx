@@ -6,7 +6,7 @@ export default function TeamCard({ name, image, description }) {
             <div className="w-fit h-fit aspect-square p-1.5 rounded-full bg-slate-100 flex items-center justify-center">
                 <img src={imagehref} alt="Photo" className="rounded-full w-full h-full object-cover" />
             </div>
-            <p className="text-blue-950 font-bold text-xl text-center font-times-new-roman">{name}</p>
+            <p className="text-blue-950 font-bold text-2xl text-center font-times-new-roman">{name}</p>
             <p className="text-gray-600 font-thin text-center">{description}</p>
         </div>
     )
