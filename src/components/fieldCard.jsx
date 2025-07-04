@@ -10,7 +10,7 @@ export default function FieldCard() {
     return (
         <div className="flex flex-wrap w-full justify-around gap-5">
             {field.map((fieldName, index) => (
-                <div key={index} className="w-1/3 min-w-80 max-w-90 p-10 flex flex-col gap-3 items-center justify-start bg-white rounded-2xl">
+                <div key={index} className="w-1/3 min-w-70 max-w-80 p-10 flex flex-col gap-3 items-center justify-start bg-white rounded-2xl">
                     <img src={icons[index]} alt="" className="w-2/5" />
                     <h2 className="text-2xl font-bold text-yellow-500 font-times-new-roman text-center" >{fieldName}</h2>
                     <p className="text-center text-blue-950">{fieldDesc[index]}</p>
