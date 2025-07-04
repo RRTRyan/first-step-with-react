@@ -1,6 +1,6 @@
-import ProgramDistributionCard from "./programDistributionCard.jsx";
-import ProgramImageCard from "./programImageCard.jsx";
-import Button from "./button.jsx";
+import ProgramDistributionCard from "./ProgramDistributionCard.jsx";
+import ProgramImageCard from "./ProgramImageCard.jsx";
+import Button from "./Button.jsx";
 
 export default function ProgramSection() {
     return (

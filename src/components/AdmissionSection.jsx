@@ -1,5 +1,5 @@
-import AdmissionCard from "./admissionCard.jsx";
-import Button from "./button.jsx";
+import AdmissionCard from "./AdmissionCard.jsx";
+import Button from "./Button.jsx";
 
 export default function AdmissionSection() {
     return (

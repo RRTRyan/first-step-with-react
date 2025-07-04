@@ -1,7 +1,7 @@
 // Need to make this carousel
 
 import { useEffect, useState } from "react"
-import TeamCard from "./teamCard.jsx"
+import TeamCard from "./TeamCard.jsx"
 
 export default function TeamCarousel() {
     const person =

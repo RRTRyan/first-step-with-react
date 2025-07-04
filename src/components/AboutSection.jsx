@@ -1,4 +1,4 @@
-import AboutText from "./aboutText"
+import AboutText from "./AboutText"
 
 export default function AboutSection() {
     return (

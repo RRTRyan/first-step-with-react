@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import TopCarouselElement from "./topCarouselElement";
+import TopCarouselElement from "./TopCarouselElement";
 
 export default function TopCarousel({ pageCount }) {
 

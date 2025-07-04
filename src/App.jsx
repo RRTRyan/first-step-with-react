@@ -1,14 +1,14 @@
 import './css/index.css';
 import './css/App.css';
 
-import Navbar from "./components/navbar.jsx";
+import Navbar from "./components/Navbar.jsx";
 import TopCarousel from './components/TopCarousel.jsx';
-import AboutSection from './components/aboutSection.jsx';
-import TeamSection from './components/teamSection.jsx';
-import Opportnities from './components/opportunitiesSection.jsx';
-import FieldSection from './components/fieldSection.jsx';
-import AdmissionSection from './components/admissionSection.jsx';
-import ProgramSection from './components/programSection.jsx';
+import AboutSection from './components/AboutSection.jsx';
+import TeamSection from './components/TeamSection.jsx';
+import Opportnities from './components/OpportunitiesSection.jsx';
+import FieldSection from './components/FieldSection.jsx';
+import AdmissionSection from './components/AdmissionSection.jsx';
+import ProgramSection from './components/ProgramSection.jsx';
 import TechnoSection from './components/TechnoSection.jsx';
 
 function App() {

@@ -1,4 +1,4 @@
-import FieldCard from "./fieldCard.jsx";
+import FieldCard from "./FieldCard.jsx";
 
 export default function FieldSection() {
     return (
