@@ -1,6 +1,6 @@
 export default function AboutText() {
     const icons = [<i className="fa-solid fa-graduation-cap"></i>, <i className="fa-solid fa-user-group"></i>, <i className="fa-solid fa-medal"></i>];
-    const iconsText = ["+3ans", "+250 étudiants", "Notre mission"];
+    const iconsText = ["+3 ans", "+250 étudiants", "Notre mission"];
     const aboutInfo = [
         "Depuis 3 ans, nous formons ceux qui décodent le futur, aux métiers de l’informatique. Nous sommes un groupe d’experts, de professionnels et des passionnés de l’informatique de Madagascar et du monde entier.",
         "Plus de 250 étudiants et plus d’une dizaine d’entreprises ont déjà fait confiance à notre formation habilitée par l’État malgache. Avec eux tous, nous sommes fiers de pouvoir parler de la “grande famille HEI”.",

@@ -10,19 +10,23 @@ import FieldSection from './components/FieldSection.jsx';
 import AdmissionSection from './components/AdmissionSection.jsx';
 import ProgramSection from './components/ProgramSection.jsx';
 import TechnoSection from './components/TechnoSection.jsx';
+import Partenaire from './components/Partenaire.jsx'
+import Footer from './components/Footer.jsx'
 
 function App() {
     return (
         <>
             <Navbar />
-            <TopCarousel pageCount={3}/> {/* Need to fix carousel in topCarouselElement.jsx */}
+            <TopCarousel pageCount={3} />
             <AboutSection />
-            <TeamSection /> {/* Need to fix carousel in teamCardList.jsx */}
+            <TeamSection />
             <Opportnities />
             <FieldSection />
             <AdmissionSection />
             <ProgramSection />
             <TechnoSection />
+            <Partenaire />
+            <Footer />
         </>
     )
 }

@@ -1,6 +1,3 @@
-// Need to make the carousel for this element
-// Need to change placeholders
-
 import Button from './Button.jsx';
 
 export default function TopCarouselElement({number}) {

@@ -1,5 +1,3 @@
-// Need to make this carousel
-
 import { useEffect, useState } from "react"
 import TeamCard from "./TeamCard.jsx"
 
